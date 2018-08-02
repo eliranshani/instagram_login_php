@@ -19,10 +19,10 @@
     $_SESSION['fullName'] = $data['user']['full_name'];
     $_SESSION['profilePicture'] = $data['user']['profile_picture'];
 
-//    header('Location: index.php');
+    header('Location: index.php');
 
-    echo "<pre>";
-    var_dump($data);
+//    echo "<pre>";
+//    var_dump($data);
 
     exit();
 ?>
